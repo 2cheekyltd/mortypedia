@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../mortypedia">
+      <sourceFolder url="file://$MODULE_DIR$/../mortypedia/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/../mortypedia/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../mortypedia/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/beyondcode/laravel-dump-server" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/scrivo/highlight.php" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/../mortypedia/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

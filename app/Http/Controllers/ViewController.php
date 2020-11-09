@@ -1,0 +1,137 @@
+<?php
+
+/**
+ * View controller. Basically does everything short of the washing.
+ *
+ * @author     Jack Wright <mrjackwright@outlook.com>
+ * @copyright  2019 OpenGL License
+ * @version    Release: @package_version@
+ * @link       https://iamjackwright.com/
+ */
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
+
+use App\Services\{MortyData, UrlBuilder};
+
+
+class ViewController extends Controller
+{
+
+    private const DEFAULT_URL = 'https://rickandmortyapi.com/api/';
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function index()
+    {
+        return view('pages.index', [
+            'data' => (new MortyData)
+                ->getResultSet(self::DEFAULT_URL)
+                ->gatherIndividualDataFromResults()
+        ]);
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //
+    }
+
+    public function getNewResults()
+    {
+        $options = [
+            'offset'    => request()->get('offset'),
+            'limit'     => request()->get('limit')
+        ];
+        $url = (new UrlBuilder)
+            ->setDefaultURL(self::DEFAULT_URL)
+            ->setOptions($options)
+            ->build();
+        $data = (new MortyData)
+            ->getResultSet($url)
+            ->gatherIndividualDataFromResults();
+        return view('includes.results', ['data' => $data])->render();
+    }
+
+    public function singular(string $name)
+    {
+        return view('pages.singular', [
+            'data' => (new ApiRequestController)->callApi(self::DEFAULT_URL . $name)
+        ]);
+    }
+
+    public function search()
+    {
+        return view('pages.search');
+    }
+    public function searchResults()
+    {
+        return redirect()->route('morty.show', request()->input('searchTerm'));
+    }
+
+}
